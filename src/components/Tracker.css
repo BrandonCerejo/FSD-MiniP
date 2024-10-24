@@ -21,6 +21,13 @@
     margin-bottom: 20px;
 }
 
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff; /* Change the heading color to white */
+}
+
 .search-input {
     width: 300px;
     padding: 10px;
