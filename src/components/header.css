@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.header-menu>li {
+    cursor: pointer;
+}
+
+.header-menu>li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.header-menu > li > a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.header-title {
+    color: white; /* Set the title text color to white */
+    font-size: 2rem; /* Increase the font size of the title */
+    text-decoration: none; /* Remove underline from the title link */
+}
